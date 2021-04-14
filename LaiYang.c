@@ -9,6 +9,7 @@
 #include <string.h>
 #include <stdlib.h>
 #include <time.h>
+#include <stddef.h>
 #include "mpi.h"
 #include "laiyang.h"
 
@@ -69,7 +70,7 @@ void print_snapshots(int rank, int total_snapshots, Snapshot snapshots[100], int
 		}
 	}
 
-	printf(output);
+	printf("%s",output);
 }
 
 int main(int argc, char* argv[]) {

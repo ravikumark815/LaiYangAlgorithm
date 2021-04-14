@@ -54,7 +54,6 @@ typedef int MPI_Fint;
 #define MPI_MODE_UNIQUE_OPEN        32  /* ADIO_UNIQUE_OPEN */
 #define MPI_MODE_APPEND            128  /* ADIO_APPEND */
 
-#define MPI_FILE_NULL           ((MPI_File) 0)
 #define MPIO_REQUEST_NULL       ((MPIO_Request) 0)
 
 #define MPI_SEEK_SET            600
