@@ -1,10 +1,3 @@
-/*
- ============================================================================
- Name        : LaiYangGlobalState.c
- Author      : IoanaStumb
- Description : Main Lai-Yang global snapshot algorithm implementation
- ============================================================================
- */
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
